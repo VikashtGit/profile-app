@@ -13,10 +13,6 @@ class ProfileEditPage extends Component {
       <>
         <Container className="He">
 
-        <Row className="mb-5">
-        
-          </Row>
-
           <Row className="mb-5">
             
           </Row>
