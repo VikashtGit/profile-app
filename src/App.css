@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.paper{
+  max-width: 60%;
+}
+.center{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.outer {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 150px !important; /* any size */
+  max-height: 150px !important; /* any size */
+  margin: auto;
+  background-color: #6eafd4;
+  border-radius: 100%;
+  position: relative;
+  }
+
+  .inner {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+    .requiredField::after {
+      content: "*";
+      color: red;
+  }
+  
+
